@@ -4,7 +4,6 @@ import dotenv from "dotenv";
 import { randomInt } from "crypto";
 
 dotenv.config();
-
 const MQTT_URL = process.env.MQTT_URL!;
 const TOPIC = process.env.MQTT_TOPIC!;
 const BACKEND_URL = process.env.BACKEND_URL!;
